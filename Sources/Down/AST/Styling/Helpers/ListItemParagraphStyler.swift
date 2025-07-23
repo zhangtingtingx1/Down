@@ -47,6 +47,7 @@ public class ListItemParagraphStyler {
         style.paragraphSpacingBefore = options.spacingAbove
         style.paragraphSpacing = options.spacingBelow
         style.alignment = options.alignment
+        style.lineSpacing = 8
         return style
     }
 
